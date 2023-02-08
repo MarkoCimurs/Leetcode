@@ -1,9 +1,9 @@
 function indexOfAll(arr: number[], val: number): number[] {
   let result: number[] = [];
   for (let i = 0; i < arr.length; i++) {
-      if (arr[i] === val) {
-          result.push(i);
-      }
+    if (arr[i] === val) {
+      result.push(i);
+    }
   }
   return result;
 }
